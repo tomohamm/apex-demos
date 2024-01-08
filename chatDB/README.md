@@ -1,4 +1,4 @@
-# Chat DB Demo App
+# ChatDB Demo App
 
 Select AI, a new feature of Autonomous Database, enables users to perform queries on their data using natural language processing. This feature harnesses the power of generative AI and Large Language Models (LLMs) to translate user input text into Oracle SQL queries. By integrating advanced language processing capabilities, users can interact with the database in a more intuitive and user-friendly manner.
 
