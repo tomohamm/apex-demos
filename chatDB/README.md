@@ -17,4 +17,4 @@ Installation Steps
 Useful Resources
 ------------------------------------
 
-1. [Blog: Configuring Generative AI in Oracle APEX using Select AI](https://blogs.oracle.com/apex/post/configuring-generative-ai-in-oracle-apex-using-select-ai)
+1. Blog: [Configuring Generative AI in Oracle APEX using Select AI](https://blogs.oracle.com/apex/post/configuring-generative-ai-in-oracle-apex-using-select-ai)
