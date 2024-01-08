@@ -13,3 +13,8 @@ Installation Steps
 3. Drag and drop the application .zip file and click Next
 4. Leave the defaults as they are, then continue through the remaining steps in the wizard to finish installing the application
 5. Install the Supporting Objects when prompted.
+
+Useful Resources
+------------------------------------
+
+1. [Blog: Configuring Generative AI in Oracle APEX using Select AI](https://blogs.oracle.com/apex/post/configuring-generative-ai-in-oracle-apex-using-select-ai)
