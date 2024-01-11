@@ -33,7 +33,7 @@ prompt APPLICATION 117 - High Schools
 -- Application Export:
 --   Application:     117
 --   Name:            High Schools
---   Date and Time:   18:28 Wednesday January 10, 2024
+--   Date and Time:   07:33 Thursday January 11, 2024
 --   Exported By:     TOUFIQ
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -130,7 +130,7 @@ wwv_imp_workspace.create_flow(
 ,p_substitution_string_02=>'APP_EMAIL'
 ,p_substitution_value_02=>'no-reply@mail.ocw-apex-demo.com'
 ,p_last_updated_by=>'TOUFIQ'
-,p_last_upd_yyyymmddhh24miss=>'20240110182810'
+,p_last_upd_yyyymmddhh24miss=>'20240111073323'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>15
 ,p_print_server_type=>'NATIVE'
@@ -355,7 +355,7 @@ wwv_flow_imp_shared.create_task_def_action(
 'declare l_p_name varchar(255); l_s_name varchar(255);',
 'begin',
 '    update nyc_schools_apps set disposition=''APPROVED'', updated=sysdate, updated_by=:APP_USER ',
-'        where id=:APEX$TASK_PK returning parent_name, student_name into l_p_name, l_s_name;',
+'        where id=:APEX$TASK_PK returning parent_user, student_name into l_p_name, l_s_name;',
 '',
 '       apex_pwa.send_push_notification (',
 '        p_user_name  => upper(l_p_name),',
